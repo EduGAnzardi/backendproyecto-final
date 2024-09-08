@@ -1,0 +1,16 @@
+{
+    "name": "product-manager-server",
+    "version": "1.0.0",
+    "description": "Servidor Express con manejo de productos y persistencia en archivos",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-handlebars": "^8.0.1",
+        "mongoose": "^8.6.1",
+        "socket.io": "^4.7.5"
+    }
+}

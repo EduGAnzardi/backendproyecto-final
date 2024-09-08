@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <script src="js/cart.js" defer></script> <!-- Incluye el archivo JS para manejar el carrito -->
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+
+    <!-- Formulario para agregar productos al carrito -->
+    <form id="add-product-form" data-cart-id="1234567890abcdef">
+        <input type="text" name="productId" placeholder="ID del producto" required>
+        <input type="number" name="quantity" min="1" placeholder="Cantidad" required>
+        <button type="submit">Agregar al carrito</button>
+    </form>
+
+    <!-- Contenedor para mostrar el carrito -->
+    <div id="cart-container">
+        <!-- Los productos del carrito se mostrarán aquí -->
+    </div>
+
+    <!-- Botón para vaciar el carrito -->
+    <button id="clear-cart-button" data-cart-id="1234567890abcdef">Vaciar carrito</button>
+</body>
+</html>
