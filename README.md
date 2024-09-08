@@ -1,4 +1,4 @@
-Proyecto de Backend
+Hola soy Eduardo Anzardi y este es mi proyecto de Backend para el curso de Coderhouse.
 Gestión de Productos:
 
 Operaciones CRUD: Permite realizar operaciones de Crear, Leer, Actualizar y Eliminar productos mediante una API RESTful.
